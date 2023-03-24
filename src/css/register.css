@@ -1,0 +1,58 @@
+/* body {
+    background-color: rgb(55, 55, 55);
+} */
+.Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    gap: 5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    align-items: center;
+    height: 45rem;
+}
+.inputs {
+    font-size: 24px;
+    font-weight: 500;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    gap:1rem;
+}
+form input {
+    width: 70%;
+   }
+#submit {
+    background-color: black;
+    color: white;
+    width: 120px;
+}
+.required {
+    transition: ease-in 0.2s;
+    font-size: 15px;
+}
+.false {
+    display: none;
+}
+Form button:nth-child(1) {
+   float: left;
+}
+
+@media screen and (max-width:500px) {
+    .Form {
+        width: 90%;
+    }
+    form {
+        width: 80%;
+        gap: 50px;
+        /* background-color: aqua; */
+    }
+
+}
