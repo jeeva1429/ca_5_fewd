@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const repoName = process.env.PUBLIC_URL.split('/').pop();
 root.render(
   <React.StrictMode>
-    <BrowserRouter><App /></BrowserRouter>
+    <BrowserRouter basename={repoName}><App /></BrowserRouter>
     
   </React.StrictMode>
 );
