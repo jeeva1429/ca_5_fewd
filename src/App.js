@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+
 import BooksData from './Componets/BooksData';
 import Registration from './Componets/Registration';
 import { Route , Routes, redirect, S} from 'react-router-dom';
